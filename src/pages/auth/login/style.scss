@@ -1,0 +1,58 @@
+.login-page{
+    $main-color: #4b4988;
+    $second-color: #35326d;
+    $third-color: #934085;
+
+    color: $main-color;
+    text-align: center;
+    background-image: url(https://media.gettyimages.com/vectors/psychedelic-twist-background-vector-id1148653574?s=2048x2048);
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+    overflow: hidden;
+
+    .form-container{
+        margin: 150px auto;
+        padding: 50px 20px;
+        max-width: 350px;
+        background-color: white;
+        border-radius: 10px;
+
+        .title{
+            font-size: clamp(1.1rem, 1vw + 2.5rem, 3rem);
+        }
+        .desc{
+            font-size: clamp(.5rem, 1vw + .6rem, .8rem);
+        }
+        .row-input{
+            margin: 0;
+            height: 60px;
+            text-align: left;
+        }
+        .form-control{
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid $main-color;
+            color: $third-color;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .invalid-feedback{
+            font-size: 10px;
+        }
+    }
+    .btn-submit{
+        margin: 15px 0;
+        width: 100%;
+        border-radius: 25px;
+        text-align: center !important;
+        background-image: linear-gradient(to right, $second-color, $main-color, $third-color);
+        &:active, &:focus{
+            box-shadow: none;
+        }
+    }
+}

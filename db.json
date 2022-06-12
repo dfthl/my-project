@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "323234342",
+      "name": "Baju",
+      "price": 200000,
+      "stock": 200,
+      "category": "pakaian"
+    },
+    {
+      "id": "12121212",
+      "name": "Celana",
+      "price": 100000,
+      "stock": 400,
+      "category": "pakaian"
+    },
+    {
+      "id": "4576457",
+      "name": "Sarung",
+      "price": 100000,
+      "stock": 400,
+      "category": "pakaian"
+    },
+    {
+      "name": "ayam",
+      "price": "100000",
+      "stock": "11",
+      "category": "makanan",
+      "id": "bFt5P1O"
+    }
+  ],
+  "users": [
+    {
+      "email": "testdev@mail.com",
+      "password": "$2a$10$X.es.XqP9OsID0O5UZq3gOQfx7VR3L2iA.hNMNIWi16fHdYROkT02",
+      "username": "testdev@mail.com",
+      "id": 1
+    }
+  ]
+}
